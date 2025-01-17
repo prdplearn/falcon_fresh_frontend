@@ -24,10 +24,26 @@ import coffee_img from "@/assets/images/coffee_img.png"
 import JuiceImg from "@/assets/images/juice.png"
 import delivery_fresh from "@/assets/images/delivery_fresh.png"
 import plane_ic from "@/assets/images/plane_ic.png"
+import cartBus from "@/assets/images/cartBus.png"
+import Percentage from "@/assets/images/percentage.png"
+import PriceTag from "@/assets/images/price_tag.png"
+import ReturnIcon from "@/assets/images/return.png"
+import MobileIcon from "@/assets/images/mobile.png"
+import LogoWhite from "@/assets/images/logo_white.svg"
+import MapIcon from "@/assets/images/map_ic.png"
+import MailIcon from "@/assets/images/mail_ic.png"
+import ChatIcon from "@/assets/images/chat_ic.png"
+import TimeIcon from "@/assets/images/time_ic.png"
+import adsPro from "@/assets/images/adsPro.png"
+import HomeSlider1 from "@/assets/images/banner-1.png"
+import HomeSlider2 from "@/assets/images/home-slider.webp"
+import HomeSlider3 from "@/assets/images/home-slider-3.webp"
+import HomeSlider4 from "@/assets/images/home-slider-4.webp"
+
 
 export {
     logo, cart_icon, user_icon, bulk_ic2, bulk_ic1, banner1, babyCare, CleanSupp, BulkDeals, FrozenFood, salt,
     Spices, Water, Product1, Product2, Product3, Product4, Product5, Sprite, Harpic, Fruit, leaf, coffee_img, JuiceImg, delivery_fresh,
-    plane_ic
+    plane_ic, cartBus, Percentage, PriceTag, ReturnIcon, MobileIcon, LogoWhite, MapIcon,HomeSlider1, MailIcon, ChatIcon, TimeIcon, HomeSlider2, adsPro, HomeSlider3,HomeSlider4
 
 }

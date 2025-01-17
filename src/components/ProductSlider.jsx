@@ -17,7 +17,7 @@ const ProductSlider = () => {
         <Wrapper className='!px-0 mb-10 relative'>
             {/* Header Section */}
             <div className='flex justify-between pt-6'>
-                <h2 className='xl:text-[32px] font-bold mb-3'>Best Deal</h2>
+                <h2 className='xl:text-[32px] font-bold mb-3 lg:mb-0'>Best Deal</h2>
             </div>
 
             {/* Swiper Slider */}
@@ -47,11 +47,15 @@ const ProductSlider = () => {
                         },
                         1024: {
                             slidesPerView: 3, // 4 slides on larger screens
-                            spaceBetween: 20,
+                            spaceBetween: 15,
                         },
                         1440: {
                             slidesPerView: 5, // 6 slides on extra-large screens
-                            spaceBetween: 25,
+                            spaceBetween: 15,
+                        },
+                        1536: {
+                            slidesPerView: 5, // 6 slides on extra-large screens
+                            spaceBetween: 15,
                         },
                     }}
                 >

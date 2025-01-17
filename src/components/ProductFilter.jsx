@@ -23,8 +23,8 @@ const ProductFilter = () => {
     return (
         <>
             <Wrapper className="!px-0">
-                <div className='flex justify-between items-center pt-6'>
-                    <h2 className='xl:text-[32px] font-bold mb-3'>Daily Best Sells</h2>
+                <div className='flex justify-between flex-col lg:flex-row items-center pt-6'>
+                    <h2 className='xl:text-[32px] font-bold mb-3 lg:mb-0'>Daily Best Sells</h2>
                     <div className="filterWrapper">
                         <NavigationMenu>
                             <NavigationMenuList className="gap-4">
@@ -37,23 +37,27 @@ const ProductFilter = () => {
                     </div>
                 </div>
                 <div className="mt-5">
-                    <div className="flex gap-3">
-                        <div className="w-[20%] rounded-lg bg-pink-200 p-4  2xl:p-8 bg_leaf" 
+                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 2xl:gap-5">
+                        <div className="lg:w-[25%] 2xl:w-[20%] rounded-xl p-4 2xl:p-6 bg_leaf"
                             style={{
-                                backgroundImage: `url(${leaf.src})`, // Use `leaf.src` for Next.js images
-                           
+                                backgroundImage: `url(${leaf.src})`,
+                                backgroundSize: "cover",
+                                backgroundRepeat: "no-repeat",
+
+                                // Use `leaf.src` for Next.js images
+
                             }}
                         >
-                            <div className='flex flex-col justify-between items-center h-full px-8 '>
-                            <h2 className='pt-10 font-bold text-center text-lg'>Bring nature into your home</h2>
-                            <div>
-                                <Button className="bg-[--primeColor] text-white rounded-full">Shop Now</Button>
+                            <div className='flex flex-col justify-between items-center h-full 2xl:px-6 '>
+                                <h2 className='pt-10 font-medium text-center 2xl:text-[24px] text-lg'>Bring nature into your home</h2>
+                                <div className='pb-6'>
+                                    <Button className="bg-[--primeColor] text-white rounded-full">Shop Now</Button>
+                                </div>
                             </div>
-                            </div>
-                   
+
 
                         </div>
-                        <div className='w-[80%]'>
+                        <div className='lg:w-[75%] 2xl:w-[80%] '>
                             <div className="Filter relative">
                                 <Swiper
                                     modules={[Navigation, Pagination, Scrollbar, A11y]}

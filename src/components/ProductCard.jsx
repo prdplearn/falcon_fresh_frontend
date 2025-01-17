@@ -7,7 +7,7 @@ const ProductCard = ({product}) => {
     return (
         <div className={`Card relative rounded-xl overflow-hidden  flex flex-col hover:border-dashed transition-all duration-100 hover:border-[--primeColor] border border-[#d9d9d9] gap-5 h-full items-center justify-start`} >
             {
-                product.isSale &&  <span className='text-[12px] px-4 py-2 bg-[--primeColor] text-white rounded-full uppercase absolute top-3 left-3'>Best Price</span>
+                product.isSale &&  <span className='text-[8px] px-2 py-1 bg-[--primeColor] text-white rounded-full uppercase absolute top-3 left-3'>Best Price</span>
             }
            
             <div className="img_bx max-h-[350px] pt-12 pb-8 px-6">

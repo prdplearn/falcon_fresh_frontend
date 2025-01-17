@@ -2,11 +2,11 @@ import React from "react";
 
 const Wrapper = ({ children, className }) => {
   return (
-    <div className={`w-full container mx-auto md:px-6 !2xl:px-0 ${
+    <section className={`w-full container mx-auto px-4  md:px-6 !2xl:px-0 ${
       className ? className :'2xl:max-w-[1536px]'
     }`}>
       {children}
-    </div>
+    </section>
   );
 };
 

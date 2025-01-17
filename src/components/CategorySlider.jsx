@@ -50,7 +50,7 @@ const CategorySlider = () => {
                         },
                         1440: {
                             slidesPerView: 6, // 6 slides on extra-large screens
-                            spaceBetween: 25,
+                            spaceBetween: 20,
                         },
                     }}
                 >

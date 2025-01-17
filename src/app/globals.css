@@ -163,3 +163,21 @@ left:-10px!important;
 .filterProd_next  {
   right:-10px!important;
   }
+
+
+  @media (max-width:767px){
+.logo img{
+  width: 120px;
+  height: auto;
+}
+.ProductSlider .swiper-button-prev, .ProductSlider .swiper-button-next{
+  top: -14px!important;
+}
+  }
+
+
+  @media (min-width:1650px){
+.container{
+  max-width: 1600px;
+}
+  }

@@ -1,4 +1,42 @@
-import { babyCare, BulkDeals, CleanSupp, FrozenFood, Fruit, Harpic, Product1, Product2, Product3, Product4, Product5, salt, Spices, Sprite, Water } from '@/assets/images';
+import { babyCare, BulkDeals, cartBus, CleanSupp, FrozenFood, Fruit, Harpic, HomeSlider1, HomeSlider2, HomeSlider3, HomeSlider4, MobileIcon, Percentage, PriceTag, Product1, Product2, Product3, Product4, Product5, ReturnIcon, salt, Spices, Sprite, Water } from '@/assets/images';
+
+
+export const bannerSliders = [
+    {
+        id: 1,
+        Name: "Organic Grocery",
+        category: "Beast Deals",
+        bannerImage: HomeSlider1,
+        description: "Save up to 20% offf this week",
+        btn_url:""
+    },
+    {
+        id: 2,
+        Name: "Fresh Vegitable",
+        category: "Beast Deals",
+        bannerImage: HomeSlider3,
+        description: "Save up to 20% offf this week",
+        btn_url:""
+    },
+    {
+        id: 3,
+        Name: "Dairy, Bread & Eggs",
+        category: "Today's Deals",
+        bannerImage: HomeSlider4,
+        description: "Save up to 20% offf this week",
+        btn_url:""
+    },
+    {
+        id: 3,
+        Name: "Ready to Cook",
+        category: "Today's Deals",
+        bannerImage: HomeSlider2,
+        description: "Save up to 20% offf this week",
+        btn_url:""
+    },
+]
+
+
 
 export const categoryData = [
     {
@@ -162,5 +200,38 @@ export const adsData = [
         adsColor: "#E7EAF2",
         productImage: Fruit,
         btnLink: ""
+    },
+]
+
+export const importancy = [
+    {
+        id: 1,
+        name: "Best prices & offers",
+        subtitle: "Orders Aed 100 or more",
+        productImage: PriceTag,
+    },
+    {
+        id: 2,
+        name: "Free delivery",
+        subtitle: "24/7 amazing services",
+        productImage: cartBus,
+    },
+    {
+        id: 3,
+        name: "Great daily deal",
+        subtitle: "When you sign up",
+        productImage: MobileIcon,
+    },
+    {
+        id: 4,
+        name: "Wide assortment",
+        subtitle: "Mega Discounts",
+        productImage: Percentage,
+    },
+    {
+        id: 4,
+        name: "Easy returns",
+        subtitle: "Within 30 days",
+        productImage: ReturnIcon,
     },
 ]
